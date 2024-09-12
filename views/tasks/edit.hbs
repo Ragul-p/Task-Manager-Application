@@ -1,0 +1,36 @@
+<h3>Edit Task</h3>
+<div class="row">
+    <form action="/tasks/{{task._id}}" method="POST" class="col s12">
+        <input type="hidden" name="_method" value="PUT">
+        <div class="row">
+            <div class="input-field">
+                <input type="text" id="title" name="title" value="{{task.title}}">
+                <label for="title">Title</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field">
+                <select id="status" name="status">
+                    {{#select task.status}}
+                    <option value="In Progress" selected>In Progress</option>
+                    <option value="Pending">Pending</option>
+                    <option value="Done">Done</option>
+                    {{/select}}
+                </select>
+                <label for="status">Status</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field">
+                <input type="text" id="title" name="description" value="{{task.description}}">
+                <label for="title">Description</label>
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" value="Save" class="btn blue">
+            <a href="/dashboard" class="btn red">Cancel</a>
+        </div>
+    </form>
+</div>

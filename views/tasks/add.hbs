@@ -1,0 +1,42 @@
+<h3>Add Task</h3>
+<div class="row">
+    <form action="/tasks" method="POST" class="col s12">
+        <div class="row">
+            <div class="input-field">
+                <input type="text" id="title" name="title" required>
+                <label for="title">Title</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field">
+                <select id="status" name="status">
+                    <option value="In Progress" selected>In Progress</option>
+                    <option value="Pending">Pending</option>
+                    <option value="Done">Done</option>
+                </select>
+                <label for="status">Status</label>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="input-field">
+                <input type="text" id="title" name="description">
+                <label for="title">Description</label>
+            </div>
+        </div>
+
+        {{!-- <div class="row">
+            <div class="input-field">
+                <h5>Description</h5>
+                <textarea id="body" name="description" required></textarea>
+            </div>
+        </div> --}}
+
+        <div class="row">
+            <input type="submit" value="Save" class="btn blue">
+            <a href="/dashboard" class="btn red">Cancel</a>
+        </div>
+    </form>
+</div>
