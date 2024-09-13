@@ -63,6 +63,19 @@ The app is hosted on [Render](https://render.com/), and MongoDB Atlas is used as
 4. **Search Feature:**
    - Users can search for pending tasks and filter them.
 
+## Live Demo
+
+You can view the live demo of the application at [this link](https://task-manager-application-68f8.onrender.com/).
+
+## Testing
+
+For testing purposes, you can use the following credentials:
+
+- **Username:** ragul@gmail.com
+- **Password:** 123456
+
+Alternatively, you can log in using your own account credentials.
+
 ## Screenshots
 Here are a few screenshots to demonstrate the UI and flow of the application:
 
