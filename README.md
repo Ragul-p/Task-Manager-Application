@@ -87,6 +87,9 @@ Here are a few screenshots to demonstrate the UI and flow of the application:
 ### 7. **Edit Task**
 ![Edit Task](./assets/images/edittask.png)
 
+### 7. **Task Detail**
+![Task Details](./assets/images/taskdetails.png)
+
 ### 8. **Pending Task - Search**
 ![Pending Task - Search](./assets/images/pendingtask.png)
 
