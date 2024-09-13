@@ -70,7 +70,7 @@ Here are a few screenshots to demonstrate the UI and flow of the application:
 ![Login](./assets/images/login.png)
 
 ### 2. **Login Error Page**
-![Login Error Page](./assets/images/login error.png)
+![Login Error Page](./assets/images/loginerror.png)
 
 ### 3. **SignUp**
 ![SignUp](./assets/images/signup.png)
