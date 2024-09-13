@@ -66,14 +66,29 @@ The app is hosted on [Render](https://render.com/), and MongoDB Atlas is used as
 ## Screenshots
 Here are a few screenshots to demonstrate the UI and flow of the application:
 
-### 1. **User Dashboard**
+### 1. **Login**
+![Login](./assets/images/login.png)
+
+### 2. **Login Error Page**
+![Login Error Page](./assets/images/login error.png)
+
+### 3. **SignUp**
+![SignUp](./assets/images/signup.png)
+
+### 4. **SignUp  Error Page**
+![SignUp  Error Page](./assets/images/signuperror.png)
+
+### 5. **Dashboard**
 ![Dashboard](./assets/images/dashboard.png)
 
-### 2. **Task Creation**
-![Task Creation](./assets/images/task_creation.png)
+### 6. **Add Task**
+![Add Task](./assets/images/addtask.png)
 
-### 3. **Drag-and-Drop Functionality**
-![Drag-and-Drop](./assets/images/drag_and_drop.png)
+### 7. **Edit Task**
+![Edit Task](./assets/images/edittask.png)
+
+### 8. **Pending Task - Search**
+![Pending Task - Search](./assets/images/pendingtask.png)
 
 ## Thank you
 
